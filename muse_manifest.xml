@@ -1,0 +1,106 @@
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="livredsts.html" resolutions="1x" timestamp="1497039733242">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_a-mestre.css" crc="4150816053" ref="formulario:sintomas:sobre:index:tratamento"/>
+    <file name="nomq_preview_master_a-mestre.css" crc="3854740430" ref="formulario:sintomas:sobre:index:tratamento"/>
+    <file name="formulario.css" crc="147314390" ref="formulario"/>
+    <file name="nomq_formulario.css" crc="91162974" ref="formulario"/>
+    <file name="sintomas.css" crc="4075054314" ref="sintomas"/>
+    <file name="nomq_sintomas.css" crc="521233514" ref="sintomas"/>
+    <file name="sobre.css" crc="186494860" ref="sobre"/>
+    <file name="nomq_sobre.css" crc="3788108165" ref="sobre"/>
+    <file name="index.css" crc="4274349803" ref="index"/>
+    <file name="nomq_index.css" crc="273097380" ref="index"/>
+    <file name="tratamento.css" crc="3760371142" ref="tratamento"/>
+    <file name="nomq_tratamento.css" crc="3931957363" ref="tratamento"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="museutils.js" crc="4148063285" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="whatinput.js" crc="86476730" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="museconfig.js" crc="172512987" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="jquery.musemenu.js" crc="3765830709" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4001026563" ref="index:sobre"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="webpro.js" crc="3986320349" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="form_check.php" crc="303648844" ref="index"/>
+    <file name="form_throttle.php" crc="236764551" ref="index"/>
+    <file name="form_process.php" crc="4272079531" ref="index"/>
+    <file name="form-u2279.php" crc="23796523" ref="index"/>
+    <file name="musewpdisclosure.js" crc="3865010892" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="jquery.museresponsive.js" crc="3991890305" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="require.js" crc="4159430777" ref="index:sobre:sintomas:tratamento:formulario"/>
+  </folder>
+  <folder name="images">
+    <file name="titulo.png" crc="515609711" seo="true" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="blank.gif" crc="4208392903" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="logo.png" crc="3965547010" ref="index"/>
+    <file name="u1524-4.png" crc="3761230947" ref="index"/>
+    <file name="u1516-10.png" crc="97337664" ref="index"/>
+    <file name="u1520-7.png" crc="67856118" ref="index"/>
+    <file name="grafico.png" crc="174472629" seo="true" ref="index"/>
+    <file name="contatos.jpg" crc="148260602" ref="index"/>
+    <file name="imagem colada 200x200.png" crc="4117930122" seo="true" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="imagem colada 512x512.png" crc="110154925" seo="true" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="imagem colada 279x279.png" crc="365440841" seo="true" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="menu.png" crc="63308640" ref="index:sintomas"/>
+    <file name="closee.png" crc="59624885" ref="index:sintomas"/>
+    <file name="titulo-crop-u1133.png" crc="358741306" ref="index:sobre:sintomas:tratamento:formulario"/>
+    <file name="u1524-42.png" crc="3997585513" ref="index"/>
+    <file name="u1516-102.png" crc="4273439208" ref="index"/>
+    <file name="u1520-72.png" crc="3987824702" ref="index"/>
+    <file name="afi miss murder.jpg" crc="241067574" ref="sobre"/>
+    <file name="u1528-4.png" crc="193028419" ref="sintomas"/>
+    <file name="u1531-4.png" crc="3922958771" ref="sintomas"/>
+    <file name="u1534.png" crc="4183132918" ref="sintomas"/>
+    <file name="u1534-r.png" crc="4021465346" ref="sintomas"/>
+    <file name="u1537-4.png" crc="4014670474" ref="sintomas"/>
+    <file name="u1540.png" crc="219338925" ref="sintomas"/>
+    <file name="u1540-r.png" crc="4236077921" ref="sintomas"/>
+    <file name="doente.png" crc="126440666" seo="true" ref="sintomas"/>
+    <file name="u1548-4.png" crc="3954650393" ref="sintomas"/>
+    <file name="u1543.png" crc="4015691556" ref="sintomas"/>
+    <file name="u1543-r.png" crc="446500196" ref="sintomas"/>
+    <file name="a6d125f4-5_g.png" crc="4152866418" seo="true" ref="sintomas"/>
+    <file name="u1528-42.png" crc="494851951" ref="sintomas"/>
+    <file name="u1531-42.png" crc="48768566" ref="sintomas"/>
+    <file name="u15342.png" crc="220069595" ref="sintomas"/>
+    <file name="u1534-r2.png" crc="146249498" ref="sintomas"/>
+    <file name="u1537-42.png" crc="4226047539" ref="sintomas"/>
+    <file name="u15402.png" crc="4171577494" ref="sintomas"/>
+    <file name="u1540-r2.png" crc="4082909742" ref="sintomas"/>
+    <file name="u1548-42.png" crc="3803913158" ref="sintomas"/>
+    <file name="u15432.png" crc="330695029" ref="sintomas"/>
+    <file name="u1543-r2.png" crc="174240744" ref="sintomas"/>
+    <file name="u1528-43.png" crc="3970636062" ref="sintomas"/>
+    <file name="u1531-43.png" crc="3858234685" ref="sintomas"/>
+    <file name="u15343.png" crc="310058387" ref="sintomas"/>
+    <file name="u1534-r3.png" crc="4013433618" ref="sintomas"/>
+    <file name="u1537-43.png" crc="355967100" ref="sintomas"/>
+    <file name="u1548-43.png" crc="344691424" ref="sintomas"/>
+    <file name="u15403.png" crc="3815914154" ref="sintomas"/>
+    <file name="u1540-r3.png" crc="3966371455" ref="sintomas"/>
+    <file name="u15433.png" crc="54026575" ref="sintomas"/>
+    <file name="u1543-r3.png" crc="4290035450" ref="sintomas"/>
+    <file name="u1552-4.png" crc="302131437" ref="tratamento"/>
+    <file name="u1555-4.png" crc="18044224" ref="tratamento"/>
+    <file name="u1570-6.png" crc="305501442" ref="tratamento"/>
+    <file name="u1556-4.png" crc="76162966" ref="tratamento"/>
+    <file name="u1567-6.png" crc="332862821" ref="tratamento"/>
+    <file name="u1557-4.png" crc="4077345723" ref="tratamento"/>
+    <file name="u1564-10.png" crc="3849776385" ref="tratamento"/>
+    <file name="u1552-42.png" crc="4194462140" ref="tratamento"/>
+    <file name="u1555-42.png" crc="438620740" ref="tratamento"/>
+    <file name="u1570-62.png" crc="3953224675" ref="tratamento"/>
+    <file name="u1556-42.png" crc="105750469" ref="tratamento"/>
+    <file name="u1567-62.png" crc="4227028418" ref="tratamento"/>
+    <file name="u1557-42.png" crc="3910867126" ref="tratamento"/>
+    <file name="u1564-102.png" crc="3973693903" ref="tratamento"/>
+  </folder>
+  <file name="index.html" crc="4276356233" seo="true" mt="1497039718903" redirect="true"/>
+  <file name="sobre.html" crc="4148909223" seo="true" mt="1497039565210" redirect="true"/>
+  <file name="sintomas.html" crc="53522483" seo="true" mt="1497039565210" redirect="true"/>
+  <file name="tratamento.html" crc="4273504842" seo="true" mt="1497039565210" redirect="true"/>
+  <file name="formulario.html" crc="3971675617" seo="true" mt="1497039565210" redirect="true"/>
+</manifest>

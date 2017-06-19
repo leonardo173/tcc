@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta charset="utf-8">
+<title>Formulario</title>
+<link href="file:///C|/Users/leona/OneDrive/Documentos/Sites/portfólio/css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Button -->
+
+<!-- Form Name -->
+<legend>Questionário</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Nome">Nome:</label>  
+  <div class="col-md-4">
+  <input id="Nome" name="Nome" type="text" placeholder="Digite o seu nome" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Sexo">Sexo</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="Sexo-0">
+      <input type="radio" name="Sexo" id="Sexo-0" value="1" checked="checked">
+      Feminino
+    </label>
+	</div>
+  <div class="radio">
+    <label for="Sexo-1">
+      <input type="radio" name="Sexo" id="Sexo-1" value="2">
+      Masculino
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Profissao">Profissão:</label>  
+  <div class="col-md-4">
+  <input id="Profissao" name="Profissao" type="text" placeholder="Digite sua profissão" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">1. Você sabe oque é dst?</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="sim" checked="checked">
+      Sim
+    </label>
+	</div>
+  <div class="radio">
+    <label for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="nao">
+      Não
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="questao2">2. Se sim, por onde conheceu?</label>
+  <div class="col-md-4">
+    <label class="checkbox-inline" for="questao2-0">
+      <input type="checkbox" name="questao2" id="questao2-0" value="posto">
+      Posto de Saude
+    </label>
+    <label class="checkbox-inline" for="questao2-1">
+      <input type="checkbox" name="questao2" id="questao2-1" value="internet">
+      Internet
+    </label>
+    <label class="checkbox-inline" for="questao2-2">
+      <input type="checkbox" name="questao2" id="questao2-2" value="livros">
+      Livros
+    </label>
+    <label class="checkbox-inline" for="questao2-3">
+      <input type="checkbox" name="questao2" id="questao2-3" value="campanhas">
+      Campanhas
+    </label>
+    <label class="checkbox-inline" for="questao2-4">
+      <input type="checkbox" name="questao2" id="questao2-4" value="outro">
+      outro
+    </label>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="questao3">3. Você acha que ter uma dst atrapalha a vida profissional e pessoal?</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="questao3-0">
+      <input type="checkbox" name="questao3" id="questao3-0" value="sim">
+      Sim
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="questao3-1">
+      <input type="checkbox" name="questao3" id="questao3-1" value="nao">
+      Não
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="questao4">4. As pessoas mais próximas a você se queixam de pessoas com dst?</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="questao4-0">
+      <input type="checkbox" name="questao4" id="questao4-0" value="sim">
+      Sim
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="questao4-1">
+      <input type="checkbox" name="questao4" id="questao4-1" value="nao">
+      Não
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="questao5">5. Você já teve alguma dst?</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="questao5-0">
+      <input type="checkbox" name="questao5" id="questao5-0" value="sim">
+      Sim
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="questao5-1">
+      <input type="checkbox" name="questao5" id="questao5-1" value="nao">
+      Não
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="questao6">6. Você já teve relações com alguém que tenha dst?</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="questao6-0">
+      <input type="checkbox" name="questao6" id="questao6-0" value="sim">
+      Sim
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="questao6-1">
+      <input type="checkbox" name="questao6" id="questao6-1" value="nao">
+      Não
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="questao7">7.Você já fez exames para checar se tem alguma dst?</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="questao7-0">
+      <input type="checkbox" name="questao7" id="questao7-0" value="sim">
+      Sim
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="questao7-1">
+      <input type="checkbox" name="questao7" id="questao7-1" value="nao">
+      Não
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="questao8">8.Você se previne das dst's de forma adequada?</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="questao8-0">
+      <input type="checkbox" name="questao8" id="questao8-0" value="sim">
+      Sim
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="questao8-1">
+      <input type="checkbox" name="questao8" id="questao8-1" value="nao">
+      Não
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="questao9">9. Você conhece mais de cinco dst's?</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="questao9-0">
+      <input type="checkbox" name="questao9" id="questao9-0" value="sim">
+      Sim
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="questao9-1">
+      <input type="checkbox" name="questao9" id="questao9-1" value="nao">
+      Não
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="questao10">10. Você acha que as pessoas devem se previnir mais?</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="questao10-0">
+      <input type="checkbox" name="questao10" id="questao10-0" value="sim">
+      Sim
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="questao10-1">
+      <input type="checkbox" name="questao10" id="questao10-1" value="nao">
+      Não
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="questao10-2">
+      <input type="checkbox" name="questao10" id="questao10-2" value="talvez">
+      Talvez
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="11questao">11.Quantas pessoas você conhece que tenham DST?</label>
+  <div class="col-md-4">
+    <select id="11questao" name="11questao" class="form-control">
+      <option value="P0">Nenhuma</option>
+      <option value="P1">1 pessoa</option>
+      <option value="P2">2 pessoas</option>
+      <option value="P3">3 pessoas</option>
+      <option value="P4">4 pessoas</option>
+      <option value="P5">5 pessoas</option>
+      <option value="P6">Mais</option>
+    </select>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="questao12">12. Mande sua opnião</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="questao12" name="questao12">As DST's...</textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="enviar"></label>
+  <div class="col-md-4">
+    <button id="enviar" name="enviar" class="btn btn-inverse">Enviar</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</body>
+</html>
